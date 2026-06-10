@@ -52,7 +52,7 @@ jobs:
       - name: Download and Validate IPA
         run: |
          # wget "https://github.com/jaydenjcpy/2026src/releases/download/202604221947YP/202604221947YP.ipa" --quiet --no-verbose -O youtube.ipa
-          wget "https://filebin.net/5cg6y0ju42fot8ib/com.google.ios.youtube_21.21.03_und3fined.ipa" --quiet --no-verbose -O youtube.ipa
+          wget "https://filebin.net/edend3up6ectv10l/com.google.ios.youtube_21.22.04_und3fined.ipa" --quiet --no-verbose -O youtube.ipa
 
           file_type=$(file --mime-type -b youtube.ipa)
 
